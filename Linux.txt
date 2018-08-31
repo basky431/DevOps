@@ -1,0 +1,132 @@
+**********LINUx*************
+1. Linux is CLI OS
+2. Operating System.
+	a. Single user system : DOS
+	b. multi user system : Unix, Linux
+
+3. Features of Linux/Unix:
+	a. Multi user
+	b. Multi tasking
+	c. Open system
+		i. IBM + Additional features = IBM-AIX
+		ii. HP +        ,,	     = HP-UX
+		iii. Santa cruiz + 	,,   = Sco-unix
+		iv. Silicon graphics+    ,,  = IRIX
+		v. Microsoft+ 		,,   = Xenix
+         Distributions of Linux: Redhat, Suse, ubuntu, puppy, slakware, centos, OEL
+					Fedora, White box, Mandrake.
+	d. Security
+		i. System level security
+		ii. File level security
+	e. Portability
+	f. Communication
+	g. Programming Language
+	h. help facility	: #man <command name>
+					or
+				  #info <command name>
+					or
+				  #<command name> --help
+
+***Types of Shells****
+	:sh, bash, ksh, zsh, csh
+
+****File Systems***
+	a. Disk File Systems : FAT, FAT32, NTFS, CDFS, HFS,ext2, ext3, ISO9660
+	b. Network File Systems : DFS, NFS, SMB, FTP
+	c. Virtual File Systems
+
+*****File System Hierarchy Sytem*****
+
+1. /(slash) : top level directory. root directory.
+2. root: root user and his working enviorment.
+3. home: home directory of other users and their environment.
+4. bin: commands
+5. sbin: root user commands
+6. boot: bootloader information.
+7. /etc: configuration files. Ex: /etc/hosts, /etc/resolv.conf
+8. usr: Unix shareable resources.
+9. opt: Third party softwares
+10. dev: device files
+11. var: Variable files
+12. mnt: default removable media
+13. lib: library files.m
+14. tmp: temporary fils informationro
+15. media: removable media, linke CD-ROM, Pendrive
+16. proc:process files
+
+***Vi editor****
+1. Command Mode
+2. Insert mode
+3. Execution mode or colon mode
+
+syn: vim <arguments> <file>
+
+Arguments: -R :  opens a file in read only mode
+	   -o : open two files at a time
+	    + : satrts at the end of the file
+	    +<num> : stats with line <num>
+
+2. Insertion Mode:
+	i : begin insert mode at current cursor position
+	I : to insert at the begining of the current line
+	a : To append to the next word's letter
+	A : T append at the end of the line
+	o : To insert a new line below the cursor position
+	O : To insert a new line above the cursor position.
+
+3. Execution Mode:
+	e : Moves the end of a word
+	b : Moves to the begining of a word
+	$ : moves to the end of a line
+	^ : Moves to the begining of a line
+	H : moves to the first lne on screen
+	M : Moves to the middle line on screen
+	L : Moves to the last line of the screen
+	x(nx)   : delets current character
+	dd(ndd) : Delets current line
+	dw(ndw) : Delete current word
+	yy(nyy) : yanks(copies) the current line
+	p : paste below the cursor line
+	P : paste above the cursor line
+	u : undo the last action
+	gg(ngg) : go to the begining of the line
+	G : End of the file
+	w(n) : to move the cursor forward, word by word.
+	b(n) : to move the cursor backward, word by word.
+	ctrl+f : to forward one page
+	ctrl+b : to backward one page
+	/ : to search a word in the file.
+	n : find next occurance of a search word
+	N : find the previous occurance of the search command
+	. : Repeat the last command action
+
+
+commands for lsat line line mode:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
