@@ -1,0 +1,4 @@
+1. Installation of git
+2. Create a GitHub account?
+3. SSH communication between GitHub to your local machine
+4. Create a multiple files from your local system and upload them to the GitHub and vice 	versa
